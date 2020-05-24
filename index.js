@@ -9,11 +9,12 @@ let api = new VKApi({
     logger: new ConsoleLogger()
 })
 console.log("flag_nrtj:{!Found_me!}");
-console.log("#######################################################################");
+console.log("#74#68#69#73#20#69#73#20#64#6f#6e#27#74#20#66#6c#61#67#20#73#65#65#20#64#6f#77#6e#20#6f#6e#20#67#65#74#52#61#6e#64#6f#6d#49#64");
 console.log("Bot started and tuned");
 function message_new(message, user){
-    function getRandomId(min = 0, max = 1000000000) {
+    function getRandomId(min = 0, max = 416669476554) {
         // случайное число от min до (max+1)
+        // Hex max
         let rand = min + Math.random() * (max + 1 - min);
         return Math.floor(rand);
       }
